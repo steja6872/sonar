@@ -20,9 +20,10 @@ jobs:
           javac factorial.java
           java factorial
 
-      - name: Sonar Scan Action
-        uses: nasiruddinml/sonar-scan-action@v1.2
+      - name: Official SonarQube Scan
+        uses: SonarSource/sonarqube-scan-action@v5.1.0
         with:
           projectBaseDir: .
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          
