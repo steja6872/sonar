@@ -20,8 +20,8 @@ jobs:
           javac factorial.java
           java factorial
 
-      - name: SonarQube Scanner Action
-        uses: philips-software/sonar-scanner-action@v1.5.1
+      - name: Sonar Scan Action
+        uses: nasiruddinml/sonar-scan-action@v1.2
         with:
           projectBaseDir: .
         env:
