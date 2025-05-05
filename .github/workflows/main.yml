@@ -19,5 +19,3 @@ jobs:
            projectBaseDir: .
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          sonar.projectKey: ${{ secrets.sonar_projectKey }}
-          sonar.organization: ${{ secrets.sonar_organization }}
