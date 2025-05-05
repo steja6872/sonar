@@ -1,3 +1,4 @@
+package com.example;
 class factorial{  
  public static void main(String args[]){  
   int i,fact=1;  
